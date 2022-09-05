@@ -3,7 +3,7 @@ import DevLogo from '../../assets/images/devLogo.png';
 import DLogoSub from '../../assets/images/dLogoSub.png';
 import { Link, NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBlog, faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faBlog, faBriefcase, faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 const Sidebar = () => (
@@ -22,6 +22,9 @@ const Sidebar = () => (
             </NavLink>
             <NavLink exact='true' activeclassname='active' className='contact-link' to='/contact'>
                 <FontAwesomeIcon icon={faEnvelope} color='#afafaf' />
+            </NavLink>
+            <NavLink exact='true' activeclassname='active' className='dashboard-link' to='/dashboard'>
+                <FontAwesomeIcon icon={faBriefcase} color='#afafaf' />
             </NavLink>
             
         </nav>

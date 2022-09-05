@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import DLogo from '../../assets/images/dLogo.png';
 import AnimatedLetters from '../AnimatedLetters/animate';
@@ -7,7 +7,7 @@ import Logo from './Logo/logo';
 import './home.scss';
 
 const Home = () => {
-    const [letterClass, setLetterClass] = useState('text-animate')
+    const [letterClass] = useState('text-animate')
     const nameArray = ['e', 'v', 'i', 'n', 't', 'e', 'l']
     const jobArray = [
         'W', 
@@ -25,12 +25,6 @@ const Home = () => {
         'r', 
         '.'
     ]
-
-    // useEffect(() => {
-    //     return setTimeout(() => {
-    //         setLetterClass('text-animate-hover')
-    //     }, 4000)
-    // }, [])
 
     return (
         <>

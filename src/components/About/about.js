@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import {
     faAngular,
     faCss3,
@@ -13,13 +13,7 @@ import AnimatedLetters from '../AnimatedLetters/animate';
 import './about.scss';
 
 const About = () => {
-    const [letterClass, setLetterClass] = useState('text-animate')
-
-//   useEffect(() => {
-//     return setTimeout(() => {
-//       setLetterClass('text-animate-hover')
-//     }, 3000)
-//   }, [])
+    const [letterClass] = useState('text-animate')
 
     return (
         <>
@@ -39,6 +33,9 @@ const About = () => {
             technologies on challenging and diverse projects.
           </p>
           <p align="LEFT">
+            I write in HTML, CSS, JS, REACTJS. I also have a vast experience is graphics 
+            design and print media, using tools like PHOTOSHOP, CORELDRAW, ILLUSTRATOR.
+            Also have a practical engagement on UI designs.
             I'm quiet confident, naturally curious, and perpetually working on
             improving my chops one design problem at a time.
           </p>
@@ -46,6 +43,12 @@ const About = () => {
             If I need to define myself in one sentence that would be a curious person
             capacity to learn and adapt, fun, goal oriented, and I also love to sleep
             and enjoy video games, as a means to rejuvenate my mental strength.
+          </p>
+          <p>
+            As of now, I am very keen on improve my skills, as I have only gathered less 
+            than experience in coding, but in this short while, I have engaged with a 
+            number of exciting and challenging projects, using vast methodology, designing 
+            and implementing algorithms.
           </p>
         </div>
         <div className="stage-cube-cont">

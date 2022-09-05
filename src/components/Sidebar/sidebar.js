@@ -15,13 +15,13 @@ const Sidebar = () => (
 
         <nav>
             <NavLink exact='true' activeclassname='active' to='/'>
-                <FontAwesomeIcon icon={faHome} color='#4d4d4e' />
+                <FontAwesomeIcon icon={faHome} color='#afafaf' />
             </NavLink>
             <NavLink exact='true' activeclassname='active' className='about-link' to='/about'>
-                <FontAwesomeIcon icon={faUser} color='#4d4d4e' />
+                <FontAwesomeIcon icon={faUser} color='#afafaf' />
             </NavLink>
             <NavLink exact='true' activeclassname='active' className='contact-link' to='/contact'>
-                <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e' />
+                <FontAwesomeIcon icon={faEnvelope} color='#afafaf' />
             </NavLink>
             
         </nav>
@@ -30,21 +30,21 @@ const Sidebar = () => (
                 <a target='_blank' 
                 rel='noreferrer' 
                 href='https://devintelartbay.netlify.app/'>
-                    <FontAwesomeIcon icon={faBlog} color='#4d4d4e' />
+                    <FontAwesomeIcon icon={faBlog} color='#afafaf' />
                 </a>
             </li>
             <li>
                 <a target='_blank' 
                 rel='noreferrer' 
                 href='https://github.com/Devintel-byte'>
-                    <FontAwesomeIcon icon={faGithub} color='#4d4d4e' />
+                    <FontAwesomeIcon icon={faGithub} color='#afafaf' />
                 </a>
             </li>
             <li>
                 <a target='_blank' 
                 rel='noreferrer' 
                 href='https://www.youtube.com/channel/UCf5HeK-UlOdC6r1drZ0TUmA'>
-                    <FontAwesomeIcon icon={faYoutube} color='#4d4d4e' />
+                    <FontAwesomeIcon icon={faYoutube} color='#afafaf' />
                 </a>
             </li>
         </ul>
